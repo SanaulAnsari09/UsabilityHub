@@ -1,0 +1,253 @@
+/* ----------------------------------------maximum width : 991px--------------------------------------- */
+
+
+@media screen  and (max-width : 991px){
+    .maincontainer{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .menuarea .navlist{
+        display: none;
+    }
+    .tester{
+        display: none;
+    }
+    .menuarea .menubar{
+        display: block;
+    }
+    .thirdPhoto{
+        width: 420px;
+        height: 400px;
+    }
+
+    /*--------------- IMAGE AREA---------- */
+
+    .firstimage{
+        width:48%;
+        height: 200px;
+    }
+    .secondimage{
+        width:48%;
+        height: 200px;
+    }
+    .thirdimage{
+        width:48%;
+        margin-top: 20px;
+        height: 200px;
+    }
+    .fourthimage{
+        width:48%;
+        margin-top: 20px;
+        height: 200px;
+    }
+    .firstimage h3{
+        width:100%;
+        height: 200px;
+    }
+    .secondimage h3{
+        width:100%;
+        height: 200px;
+    }
+    .thirdimage h3{
+        width:100%;
+        height: 200px;
+    }
+    .fourthimage h3{
+        width:100%;
+        height: 200px;
+    }
+
+    /* ninth container */
+
+    .ningthContainer{
+        /* font-size: 20px; */
+    }
+
+}
+
+
+/* ----------------------------------------maximum width : 833px--------------------------------------- */
+
+
+@media screen  and (max-width : 833px){
+    .card-1{
+        height: 250px;
+        width: 230px;
+    }
+    .thirdPhoto{
+        width: 380px;
+        height: 360px;
+    }
+   
+}  
+
+
+/* ----------------------------------------maximum width : 767px--------------------------------------- */
+
+@media screen  and (max-width : 767px){
+
+    .thirdcontainer{
+        width: 90%;
+        flex-direction: column-reverse;
+        margin: 0 auto;
+    }
+    .image3rdarea{
+        display: flex;
+        justify-content: center;
+    }
+    .contend3rdarea {
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .contentbutton{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .companieslogo{
+        padding: 0px 20px 0 20px;    
+    }
+    
+    .cardcontainer{
+        justify-content: space-around;
+    }
+
+    .card-1{
+        height: 200px;
+        width: 250px;
+    }
+    .fivethcontainer{
+        background: none;
+    }
+
+    .sixcontainer{
+        flex-direction: column;
+    }
+    .sixthimagearea{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .thirdPhoto{
+        width: 100%;
+        height: 100%;
+    }
+
+    .sixthcontentarea{
+        width: 100%;
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .sixsubhead p{
+        font-size: 1.1rem;
+        line-height: 1.8rem;
+        word-spacing: 0.3rem;
+    }
+
+    .sevencontainer{
+        flex-direction: column-reverse;
+    }
+
+    /* Ninth Container */
+    .ningthContainer{
+        height: 800px;
+    }
+    .N-subcontainer{
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 50px;
+    }
+    .ninthImageArea{
+        height: 550px;
+        width: 550px;
+        justify-content: center;
+        
+    }
+}
+
+
+/* ----------------------------------------maximum width : 556px--------------------------------------- */
+
+
+@media screen  and (max-width : 556px){
+    .card-1{
+        height: 200px;
+        width: 300px;
+    }
+    .ninthImageArea{
+        height: 420px;
+        width: 420px;
+        justify-content: center;
+        
+    }
+}
+
+
+/* ----------------------------------------maximum width : 456px--------------------------------------- */
+
+
+@media screen  and (max-width : 456px){
+    .image3rdarea{
+      
+    }
+    .image3rdarea .photo1{
+        height: 100%;
+        width: 100%;   
+    }
+
+    
+    .firstimage{
+        width:100%;
+        height: 200px;
+    }
+    .secondimage{
+        width:100%;
+        height: 200px;
+        margin-top: 20px;
+    }
+    .thirdimage{
+        width:100%;
+        margin-top: 20px;
+        height: 200px;
+    }
+    .fourthimage{
+        width:100%;
+        margin-top: 20px;
+        height: 200px;
+    }
+    .firstimage h3{
+        width:100%;
+        height: 200px;
+    }
+    .secondimage h3{
+        width:100%;
+        height: 200px;
+    }
+    .thirdimage h3{
+        width:100%;
+        height: 200px;
+    }
+    .fourthimage h3{
+        width:100%;
+        height: 200px;
+    }
+
+    .ninthImageArea{
+        height: 380px;
+        width: 380px;
+        
+    }
+}
+
+@media screen and (max-width : 380px){
+    
+    .ninthImageArea{
+        
+        height: 200px;
+        width: 200px;
+        display: none;
+    }
+}

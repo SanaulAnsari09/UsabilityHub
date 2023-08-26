@@ -1,0 +1,519 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    /* overflow-x: hidden; */
+}
+
+.firstcontainer{
+    background-color: #4dadf7;
+    height: 2.5rem;
+    background-image: url(assets/asset\ 32.png);
+    background-size: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstcontainer p{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+/*  <!------------------------ NAVIGATION BAR -------------------------> */
+.maincontainer{
+    width: 970px;
+    margin: 0 auto;
+}
+.secondcontainer{
+    display: flex;
+    justify-content: space-between;
+    height: 4.5rem;
+    align-items: center;
+}
+
+.logoarea{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.tester{
+    background: url(assets/tooltip.svg);
+    font-size: 0.8rem;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #183b56;
+}
+
+.menuarea .navlist ul {
+    display: flex;
+}
+.menuarea .navlist ul li{
+    list-style: none;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #183b56;
+}
+.menuarea .navlist ul li .signin{
+    height: 30px;
+    width: 80px;
+    text-decoration: none;
+    color: #183b56;
+    font-weight: 600;
+    border: 0.5px solid rgb(10, 124, 231);
+    border-radius: 2px;
+    padding: 10px 15px 10px 15px;
+    transition: 1s;
+}
+.menuarea .navlist ul li .signin:hover{
+
+    border: 0.9px solid #2294ed;
+    color: #2294ed;
+}
+.menuarea .navlist ul li .signup{
+    height: 30px;
+    width: 80px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    background-color:  rgb(10, 124, 231);
+    border-radius: 2px;
+    padding: 10px 15px 10px 15px;
+    transition: 1s;
+}
+.menuarea .navlist ul li .signup:hover{
+
+    background-color: #085996;
+}
+.menuarea{
+    display: flex;
+    justify-content: space-between;
+}
+.menuarea .menubar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+.menuarea .menubar:hover{
+    color: #183b56;
+}
+
+/*  <!--------------------------------Design Confidently---------------------------->*/
+
+.thirdcontainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.contend3rdarea{
+    width: 400px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin: auto 0;
+}
+
+.contend3rdarea h1{
+    padding: 0 0 20px 0;
+    font-family: sans-serif;
+    color: #183b56;
+    font-weight: 700;
+    font-size: 2.4rem;
+}
+.contend3rdarea p{
+    padding: 0 0 20px 0;
+    font-family: sans-serif;
+    line-height: 1.8rem;
+    color: #577592;
+}
+.contend3rdarea a{
+    margin: 20px 0 0 0;
+    text-decoration: none;
+    background-color: #2294ed;
+    height: 40px;
+    width: 120px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+
+
+/* <!---------------------------------------COMPANIES LOGO----------------------------------------> */
+
+.fourthcontainer{
+    margin-top: 40px;
+}
+.fourthcontainer p{
+    text-align: center;
+    color: #183b56;
+    font-family: sans-serif;
+}
+.fourthcontainer .companieslogo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+
+/*     <!------------------------------user research------------------------------> */
+
+.fivethcontainer{
+    background: url(assets/egg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+}
+.headcontain h1{
+    text-align: center;
+    padding-top: 90px;
+    font-size: 1.5rem;
+    font-family:  sans-serif;
+    color: #183b56;
+    font-weight: 600;
+}
+.headbutton{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.headbutton a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #183b56;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: 0.1px solid #577592;
+    padding: 10px 15px 10px 15px;
+    border-radius: 2px;   
+}
+.cardcontainer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card-1{
+    height: 200px;
+    width: 250px;
+    text-align: center;
+}
+.card-1 .photo2{
+    height: 35px;
+    width: 35px;
+}
+.card-1 h3{
+    font-family: sans-serif;
+    color: #183b56;
+    padding-top:10px;
+}
+.card-1 p{
+    font-family: sans-serif;
+    color:#577592;
+    padding-top:10px;
+    font-size: 1rem;
+    font-weight: lighter;
+    word-spacing: .1rem;
+}
+.card-1 .anchorbutton{
+    margin-top:20px;
+}
+.card-1 .anchorbutton {
+    font-family: sans-serif;
+    color: #183b56;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border: 0.1px solid #577592;
+    padding: 10px 15px 10px 15px;    
+    border-radius: 2px;
+}
+
+/* <!----------------------------------Design professionals------------------------------> */
+
+.sixcontainer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.sixthcontentarea{
+    width: 350px;
+    background: url(assets/doublequote.svg);
+    background-repeat: no-repeat;
+    background-position:left;   
+}
+.sixcontent p{
+    padding: 0 0 10px 0;
+    font-family: sans-serif;
+    color: #183b56;
+    font-size: 0.8rem;
+    font-weight: 600;
+
+}
+.sixcontent h1{
+    /* padding-top: 10px; */
+    font-size: 1.5rem;
+    font-family:  sans-serif;
+    color: #183b56;
+    font-weight: 600;
+}
+
+.sixcontent .subpara{
+    font-family: sans-serif;
+    color:#577592;  
+    font-size: 1rem;
+    font-weight: lighter;
+    padding-top: 10px;
+    word-spacing: 0.2rem;
+    line-height: 1.4rem;
+    
+}
+.sixsubhead{
+    margin-top: 10px;
+}
+.sixsubhead p{
+    font-family: sans-serif;
+    color: #183b56;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding-top: 10px;
+    /* word-spacing: 0.2rem; */
+    line-height: 1.4rem;
+    
+}
+
+.sixsubimage{
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+    margin-top: 20px;
+}
+
+.sixsubimage p{
+    font-family: sans-serif;
+    color: #183b56;
+    font-weight: 500;
+}
+
+.sixsubimage span{
+    font-family: sans-serif;
+    color:#577592;  
+    font-size: 0.7rem;
+}
+
+/* <!--------------------------------------Marketers---------------------------------------> */
+
+.sevencontainer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.sixsubimage1{
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+    margin-top: 20px;
+}
+
+.sixsubimage1 p{
+    font-family: sans-serif;
+    color: #183b56;
+    font-weight: 500;
+}
+
+.sixsubimage1 span{
+    font-family: sans-serif;
+    color:#577592;  
+    font-size: 0.7rem;
+}
+/* <!----------------------------------------PRODUCT MANAGER---------------------------------------> */
+
+
+
+
+.sixsubimage2{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.sixsubimage2 p{
+    font-family: sans-serif;
+    color: #183b56;
+    font-weight: 500;
+}
+
+.sixsubimage2 span{
+    font-family: sans-serif;
+    color:#577592;  
+    font-size: 0.7rem;
+}
+
+
+
+/* <!------------------------------One platform, endless possibilities--------------------------> */
+
+
+.eightcontainer{
+    margin-top: 40px;
+}
+.eightheading{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.eightheading h1{
+    font-family:  sans-serif;
+    color: #183b56;
+    font-weight: 600;
+   text-align: center;
+}
+.eightanchorbutton{
+    display: flex;
+    justify-content: center;
+}
+.eightanchorbutton a{
+    margin-top: 20px;
+    font-family:  sans-serif;
+    color: #183b56;
+    text-decoration: none;
+    border: 0.5px solid #183b56;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+}
+
+.sevenimage{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap ;
+}
+.firstimage{
+    background: url(assets/asset\ 36.jpeg);
+    height: 280px;
+    width: 230px;
+    background-size: cover;
+}
+.firstimage h3{
+    background:linear-gradient(to top, rgba(0,0,0,0.8),rgba(255,255,255,0.1)) ;
+    background-position: bottom;
+    height: 280px;
+    width: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding:0 20px 20px 20px ;
+    font-family: sans-serif;
+    color: white;
+}
+
+
+
+/* Second image */
+
+.secondimage{
+    background: url(assets/asset\ 37.jpeg);
+    height: 280px;
+    width: 230px;
+    background-size: cover;
+}
+.secondimage h3{
+    background:linear-gradient(to top, rgba(0,0,0,0.8),rgba(255,255,255,0.1)) ;
+    background-position: bottom;
+    height: 280px;
+    width: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding:0 20px 20px 20px ;
+    font-family: sans-serif;
+    color: white;
+}
+
+/* third image */
+
+.thirdimage{
+    background: url(assets/asset\ 38.jpeg);
+    height: 280px;
+    width: 230px;
+    background-size: cover;
+}
+.thirdimage h3{
+    background:linear-gradient(to top, rgba(0,0,0,0.8),rgba(255,255,255,0.1)) ;
+    background-position: bottom;
+    height: 280px;
+    width: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding:0 20px 20px 20px ;
+    font-family: sans-serif;
+    color: white;
+}
+
+/* fourth image */
+
+.fourthimage{
+    background: url(assets/asset\ 39.jpeg);
+    height: 280px;
+    width: 230px;
+    background-size: cover;
+}
+.fourthimage h3{
+    background:linear-gradient(to top, rgba(0,0,0,0.8),rgba(255,255,255,0.1)) ;
+    background-position: bottom;
+    height: 280px;
+    width: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding:0 20px 20px 20px ;
+    font-family: sans-serif;
+    color: white;
+}
+
+/*-------------------------------------------No participants? No problem-----------------------------------------*/
+
+.ningthContainer{
+        background-color: #183b56;
+        height: 500px;
+        /* width: 100vw; */
+        margin-top: 50px;
+        
+}
+.N-subcontainer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.ninthImageArea{
+    background:url(assets/asset\ 40.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 450px;
+}
